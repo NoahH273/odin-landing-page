@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+}
+.header-logo{
+    color: rgb(226, 219, 219);
+    font-weight: bold;
+    font-size: large;
+}
+.header-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: rgb(199, 190, 190)
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
