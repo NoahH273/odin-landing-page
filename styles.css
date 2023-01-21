@@ -7,8 +7,9 @@ body {
 }
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #1f2937;
+    gap: 445px;
 }
 .header-logo{
     color: rgb(226, 219, 219);
@@ -19,11 +20,60 @@ body {
     display: flex;
     list-style: none;
     gap: 20px;
-    color: rgb(199, 190, 190)
+    color: #e5e7eb;
+    font-size: 18px;
 }
 a{
     text-decoration: none;
 }
 a:visited{
     color: inherit;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    height: 200px;
+    background-color: #1f2937;
+    height: min-content;
+
+}
+.intro, .image-placeholder{
+    flex: 0 auto;
+    width: 473px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 10px;
+}
+.image-placeholder{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.intro-header{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.intro-subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.intro-header, .intro-subtext{
+    margin: 0;
+    margin-bottom: 10px;;
+}
+.sign-up{
+    background-color: #3882f6;
+    padding: 10px;
+    font-size: 20px;
+    color: #f9faf8;
+    border-radius: 10px;
+    min-width: 105px;
+    border: none;
 }
