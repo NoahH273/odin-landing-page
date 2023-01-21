@@ -124,10 +124,6 @@ a:visited{
     font-weight: bold;
     font-size: 20px;
 }
-
-
-
-
 .call-section{
     display: flex;
     justify-content: center;
@@ -155,4 +151,9 @@ a:visited{
 }
 .call-to-action-subtext{
     color: #e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
 }
