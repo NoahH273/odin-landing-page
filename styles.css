@@ -77,10 +77,6 @@ a:visited{
     min-width: 105px;
     border: none;
 }
-
-
-
-
 .product-section{
     display: flex;
     flex-direction: column;
@@ -110,4 +106,24 @@ a:visited{
 .product{
     text-align: center;
     width: 200px;
+}
+
+
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 50px 365px;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
 }
