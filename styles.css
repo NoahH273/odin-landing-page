@@ -12,7 +12,7 @@ body {
     gap: 445px;
 }
 .header-logo{
-    color: rgb(226, 219, 219);
+    color: #f9faf8;
     font-weight: bold;
     font-size: large;
 }
@@ -107,13 +107,10 @@ a:visited{
     text-align: center;
     width: 200px;
 }
-
-
-
 .quote-section{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     text-align: center;
     padding: 50px 365px;
     background-color: #e5e7eb;
@@ -126,4 +123,36 @@ a:visited{
 .bold{
     font-weight: bold;
     font-size: 20px;
+}
+
+
+
+
+.call-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.call-to-action{
+    background-color: #3882f6;
+    padding: 50px 100px;
+    width: 1135px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#sign-up-two{
+    border: 2px solid #f9faf8;
+}
+.call-to-action-text{
+    flex: 1;
+}
+.call-to-action-title{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.call-to-action-subtext{
+    color: #e5e7eb;
 }
